@@ -1,0 +1,10 @@
+/.vscode
+
+# nest-demo-app
+./nest-demo-app/.git
+./nest-demo-app/dist
+./nest-demo-app/node_modules
+
+# vue-demo-app
+./vue-demo-app/.git
+./vue-demo-app/node_modules

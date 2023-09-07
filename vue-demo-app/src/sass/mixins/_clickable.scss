@@ -1,0 +1,12 @@
+@import "../variables/colors";
+
+@mixin clickable {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    color: $theme-color;
+    fill: $theme-color;
+    transition: all 0.5s;
+  }
+}

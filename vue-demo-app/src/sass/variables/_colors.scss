@@ -1,0 +1,25 @@
+$theme-color: hsl(153, 47%, 49%);
+$background-color: hsl(201, 17%, 16%);
+$nav-bar-color: hsl(202, 19%, 23%);
+$nav-bar-support-dark-color: hsl(202, 21%, 18%);
+$nav-bar-support-light-color: hsl(202, 21%, 38%);
+$text-color: hsl(0, 0%, 93%);
+$dark-text-color: hsl(0, 0%, 40%);
+
+$green-color: hsl(154, 91%, 40%);
+$red-color: hsl(348, 100%, 61%);
+$white-color: hsl(0, 0%, 93%);
+
+$input-color: $nav-bar-support-light-color;
+$input-focus-color: lighten($input-color, 20%);
+$input-text-color: $text-color;
+$input-placeholder-color: lighten($input-color, 25%);
+$input-status-bar-color: lighten($input-color, 45%);
+$input-tooltip-color: $red-color;
+$input-tooltip-text-color: $white-color;
+
+$button-color: $theme-color;
+$button-text-color: $text-color;
+$button-text-hover-color: hsl(162, 71%, 15%);
+$button-warning-color: $red-color;
+$button-warning-text-hover-color: hsl(348, 64%, 24%);

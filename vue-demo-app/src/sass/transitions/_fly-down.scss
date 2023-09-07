@@ -1,0 +1,9 @@
+.fly-down-enter-from,
+.fly-down-leave-to {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.fly-down-enter-active,
+.fly-down-leave-active {
+  transition: all 0.3s ease;
+}

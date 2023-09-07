@@ -1,0 +1,9 @@
+.fly-left-enter-from,
+.fly-left-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fly-left-enter-active,
+.fly-left-leave-active {
+  transition: all 0.3s ease;
+}
